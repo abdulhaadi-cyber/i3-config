@@ -1,2 +1,30 @@
 mkdir ~/pictures && wget -O ~/pictures/sunset.png "https://gruvbox-wallpapers.pages.dev/wallpapers/minimalistic/sunset.png"
 sudo pacman -Syu feh firefox gocryptfs gvim keepassxc redshift scrot signal-desktop xpdf
+
+XTerm*faceName: Monospace
+XTerm*faceSize: 12
+XTerm*background: #1e1e1e
+XTerm*foreground: #d4d4d4
+XTerm*cursorColor: #ffffff
+XTerm*color0:  #1e1e1e
+XTerm*color1:  #d16969
+XTerm*color2:  #608b4e
+XTerm*color3:  #dcdcaa
+XTerm*color4:  #569cd6
+XTerm*color5:  #c586c0
+XTerm*color6:  #4ec9b0
+XTerm*color7:  #d4d4d4
+XTerm*color8:  #808080
+XTerm*color9:  #f44747
+XTerm*color10: #b5cea8
+XTerm*color11: #ffea00
+XTerm*color12: #9cdcfe
+XTerm*color13: #d670d6
+XTerm*color14: #4ec9b0
+XTerm*color15: #ffffff
+XTerm*selectToClipboard: true
+XTerm*VT100.translations: #override \
+  Ctrl Shift <Key>V: insert-selection(CLIPBOARD) \n\
+  Ctrl Shift <Key>C: copy-selection(CLIPBOARD)
+
+
