@@ -1,6 +1,8 @@
 mkdir ~/pictures && wget -O ~/pictures/sunset.png "https://gruvbox-wallpapers.pages.dev/wallpapers/minimalistic/sunset.png"
 sudo pacman -Syu feh firefox gocryptfs gvim keepassxc redshift scrot signal-desktop xpdf
 
+Xterm
+
 XTerm*faceName: Monospace
 XTerm*faceSize: 12
 XTerm*background: #1e1e1e
@@ -27,4 +29,5 @@ XTerm*VT100.translations: #override \
   Ctrl Shift <Key>V: insert-selection(CLIPBOARD) \n\
   Ctrl Shift <Key>C: copy-selection(CLIPBOARD)
 
+xrdb -merge ~/.Xresources
 
