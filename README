@@ -1,2 +1,2 @@
 mkdir ~/pictures && wget -O ~/pictures/sunset.png "https://gruvbox-wallpapers.pages.dev/wallpapers/minimalistic/sunset.png"
-sudo pacman -Syu feh firefox git gocryptfs fvim keepassxc redshift scrot signal-desktop xpdf
+sudo pacman -Syu feh firefox gocryptfs fvim keepassxc redshift scrot signal-desktop xpdf
